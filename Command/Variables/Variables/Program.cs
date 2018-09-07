@@ -10,8 +10,7 @@ namespace Variables
     {
         static void Main(string[] args)
         {
-            const float Pi = 3.14f;
-        
+            const float Pi = 3.14f;       
             byte numero1 = 21;
             int count1 = 10;
             float totalPrice1 = 20.95f;
@@ -45,7 +44,7 @@ namespace Variables
 
             Console.WriteLine("Byte values are: {0} to {1}",byte.MinValue, byte.MaxValue);
             Console.WriteLine("Value of Pi: {0}",Pi);
-
+            Console.WriteLine("This is a test");
         }
     }
 }
