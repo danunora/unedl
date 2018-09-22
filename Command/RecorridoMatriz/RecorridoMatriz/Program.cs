@@ -21,12 +21,21 @@ namespace RecorridoMatriz
             Console.WriteLine("Tamano del Arreglo: {0}", arreglo.Length);
 
             for (int i = 0; i <= 4; i++)
-            {
-                for (int j = 0; j <= 3; j++)
-                {
-                    Console.WriteLine("Elemento: {0}", arreglo[j, i]);
+            {                
+                if ( (i % 2) == 0)
+                { 
+                    for (int j = 0; j <= 3; j++)
+                    {
+                        Console.WriteLine("Elemento: {0}", arreglo[j, i]);
+                    }
                 }
-                
+                else
+                {
+                    for (int j = 3; j >= 0 ; j--)
+                    {
+                        Console.WriteLine("Elemento: {0}", arreglo[j, i]);
+                    }
+                }
             }
         }
     }
