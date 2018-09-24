@@ -1,0 +1,31 @@
+##################
+TAREA # 1 Tipos de datos utilizados en C#:
+Realizar un programa que muestre los diferentes tipos de datos utilizados en C#, 
+utilizar variables y constantes como parte del programa y realizar conversiones entre los mismos.
+
+Subir el programa a github o bitbucket y enviar por email (daniel_nuno@hotmail.com) la liga al mismo.
+
+##################
+TAREA # 2 Operadores en C#:
+Realizar un programa que muestre los diferentes tipos de operadores utilizados en C#. 
+
+Subir el programa a github o bitbucket y enviar por email (daniel_nuno@hotmail.com) la liga al mismo.
+
+##################
+TAREA # 3 Clases en C#:
+Realizar un programa que muestre el uso de Clases en C#, se puede reusar el código ya hecho en la tarea 1 y 2.
+ 
+Subir el programa a github o bitbucket y enviar por email (daniel_nuno@hotmail.com) la liga al mismo.
+
+##################
+TAREA # 4 palíndromo en C#:
+Realizar un programa que haga diga si una cadena es un “palíndromo”.
+¿Acaso hubo búhos acá?
+A la catalana banal, atácala.
+A mamá, Roma le aviva el amor a papá y a papá, Roma le aviva el amor a Mamá.
+A ti no, bonita.
+Amo la pacífica paloma.
+Amor a Roma.
+Ana lava lana.
+
+Subir el programa a github o bitbucket y enviar por email (daniel_nuno@hotmail.com) la liga al mismo.
