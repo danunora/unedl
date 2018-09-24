@@ -1,0 +1,23 @@
+##################
+TAREA # 1 INVESTIGAR:
+En que consiste cada uno de los siguientes paradigmas de programación y ejemplos de lenguajes de programación: 
+Programación Estructurada
+Programación Visual 
+Programación Orientada a Objetos 
+Programación Orientada a eventos
+¿A qué se refiere el concepto de RAD (rapid application development)?
+¿Qué es un IDE? y mencionar ejemplos
+Conclusiones
+
+##################
+TAREA # 2 INVESTIGAR:
+IDE, Caracteristicas, Lenguajes de Programación, Sistema Operativo, Paradigma
+
+##################
+TAREA # 3 Glosario:
+Descripciones en no menos de tres líneas
+Ordenado alfabéticamente
+Con excelente ortografía
+Incrementando a lo largo del curso
+En cada parcial se preguntaran términos del Glosario que cuentan para la calificación
+

@@ -1,0 +1,38 @@
+Glosario
+
+CLI, GUI, NUI, OUI, HCI
+HTML, CSS, LAMP
+OOP
+Paradigma
+P.P.Estructurada,
+P.P.OO,
+P.P.O.Eventos,
+P.P.Funcional,
+P.P.Lógica,
+Multiparadigma,
+Programación Visual,
+Lenguaje,
+LPV,
+UML,
+Metodología RAD,
+IDE,
+Componentes,
+Componente Visual,
+Componente No Visual,
+Plataforma.NET,
+Framework,
+Librerías
+CLR,
+MISIL,
+CLS,
+CTS,
+Compilador JIT, 
+código fuente, 
+código objeto, 
+código ejecutable,
+XML,
+W3C,
+HTTP,
+SOAP,
+WSDL,
+UDDI
