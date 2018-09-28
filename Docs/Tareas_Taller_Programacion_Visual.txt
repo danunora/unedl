@@ -14,6 +14,8 @@ Subir el programa a github o bitbucket y enviar por email (daniel_nuno@hotmail.c
 ##################
 TAREA # 3 Clases en C#:
 Realizar un programa que muestre el uso de Clases en C#, se puede reusar el código ya hecho en la tarea 1 y 2.
+
+Utilizar "Struct" para simular los mismos comportamientos.
  
 Subir el programa a github o bitbucket y enviar por email (daniel_nuno@hotmail.com) la liga al mismo.
 
@@ -29,3 +31,29 @@ Amor a Roma.
 Ana lava lana.
 
 Subir el programa a github o bitbucket y enviar por email (daniel_nuno@hotmail.com) la liga al mismo.
+
+##################
+Ejercicio # 3 Clases en C#:
+Desarrollar un programa que tenga una clase que represente un Cuadrado y tenga los siguientes métodos: 
+- ingresar valor a su lado, 
+- imprimir su perímetro y su superficie.
+Subir el programa a github o bitbucket y enviar por email (daniel_nuno@hotmail.com) la liga al mismo.
+
+##################
+Ejercicio # 4 en clase:
+Realizar un programa que haga un recorrido en una matriz dada e imprima el contenido:
+{1,9,23,34,102}
+{2,8,67,56,23}
+{3,7,84,78,43}
+{4,5,90,98,34} 
+Resultado: 1,2,3,4,5,7,8,9,23,67,84,90,98,78,56,34,102,23,43,34
+Subir el programa a github o bitbucket y enviar por email (daniel_nuno@hotmail.com) la liga al mismo.
+
+###################
+Ejercicio # 5 en clase:
+1) Entrar a la página de Microsoft DeveloperNetwork MSDN: https://msdn.microsoft.com/es-mx>Documentación > API y referencia >
+2) En la página ubicar la sección de: Herramientas y Lenguajes de Desarrollo >Seleccionar: Visual Studio 2015
+3) Con apoyo de la herramienta de búsqueda ubicar las siguientes páginas de contenido:
+Tutorial: Crear una aplicación sencilla con Visual C# o Visual Basic
+4) Seguir las instrucciones para crear la aplicación
+5) Subir el programa a github o bitbucket y enviar por email (daniel_nuno@hotmail.com) la liga al mismo.

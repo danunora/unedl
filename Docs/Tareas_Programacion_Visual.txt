@@ -21,3 +21,12 @@ Con excelente ortografía
 Incrementando a lo largo del curso
 En cada parcial se preguntaran términos del Glosario que cuentan para la calificación
 
+###################
+TAREA # 4 Delegados en C#:
+Realizar ejercicios basados en: https://www.tutorialspoint.com/csharp/csharp_delegates.htm
+Pedir al usuario 5 números enteros.
+Usar las siguientes operaciones (métodos):
+Sumar 5 números enteros
+Sacar el promedio de esos 5 números enteros
+Sacar el mayor de esos 5 números enteros
+Subir el programa a github o bitbucket y enviar por email (daniel_nuno@hotmail.com) la liga al mismo.
