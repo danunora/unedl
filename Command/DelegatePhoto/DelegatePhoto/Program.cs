@@ -11,7 +11,19 @@ namespace DelegatePhoto
         static void Main(string[] args)
         {
             var processor = new PhotoProcessor();
-            processor.Process("photo.jpg");
+
+            var filters = new PhotoFilters();
+            PhotoProcessor.PhotoFilterHandler filterHandler = filters.ApplyBrightness;
+
+            filterHandler += filters.ApplyContrast;
+            filterHandler += RemoveRedEye;
+
+            processor.Process("photo.jpg",filterHandler);
+        }
+
+        static void RemoveRedEye(Photo photo)
+        {
+            Console.WriteLine("Remove Red Eye");
         }
     }
 }
