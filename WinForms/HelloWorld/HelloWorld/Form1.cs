@@ -24,8 +24,8 @@ namespace HelloWorld
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            // Code to be executed during the loading the form phase
-            //label1.Text = "Loading Form";
+            // Code to be executed during the load of the form phase
+            label1.Text = "Loading Form";
         }
 
         private void txtInput_TextChanged(object sender, EventArgs e)
@@ -58,7 +58,12 @@ namespace HelloWorld
         private void pictureBox1_Click(object sender, EventArgs e)
         {
             label3.Text = $"This is an Star! : ";
+        }
 
+        private void textBox1_TextChanged_1(object sender, EventArgs e)
+        {
+            double input = double.Parse(textBox1.Text);
+            label4.Text = $"10% of {input} is {0.1 * input}";  
         }
     }
 }

@@ -1,4 +1,4 @@
-##################
+﻿##################
 TAREA # 1 INVESTIGAR:
 En que consiste cada uno de los siguientes paradigmas de programación y ejemplos de lenguajes de programación: 
 Programación Estructurada
@@ -29,4 +29,13 @@ Usar las siguientes operaciones (métodos):
 Sumar 5 números enteros
 Sacar el promedio de esos 5 números enteros
 Sacar el mayor de esos 5 números enteros
+Subir el programa a github o bitbucket y enviar por email (daniel_nuno@hotmail.com) la liga al mismo.
+
+###################
+TAREA # 5 Eventos en C#:
+Realizar ejercicios basados en: https://www.tutorialspoint.com/csharp/csharp_events.htm
+Calculadora para generar ofertas laborales, calcular en base al salario mensual:
+Ley: Aguinaldo, vacaciones, Infonavit, IMSS, RCV
+Empresa: SGMM, Vales Despensa, Comedor*, Seguro de Vida*
+*fija, resto es %.
 Subir el programa a github o bitbucket y enviar por email (daniel_nuno@hotmail.com) la liga al mismo.
