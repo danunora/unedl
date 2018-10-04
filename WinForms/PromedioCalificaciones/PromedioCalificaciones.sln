@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2016
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PromedioCalificaciones", "PromedioCalificaciones\PromedioCalificaciones.csproj", "{49AE4650-B095-4125-9E4F-DBC0B84946D9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{49AE4650-B095-4125-9E4F-DBC0B84946D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49AE4650-B095-4125-9E4F-DBC0B84946D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49AE4650-B095-4125-9E4F-DBC0B84946D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49AE4650-B095-4125-9E4F-DBC0B84946D9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {07C95824-893B-4CCA-A8F1-5691E171D5E4}
+	EndGlobalSection
+EndGlobal

@@ -32,6 +32,14 @@ Sacar el mayor de esos 5 números enteros
 Subir el programa a github o bitbucket y enviar por email (daniel_nuno@hotmail.com) la liga al mismo.
 
 ###################
+Ejercicio # 1 Eventos en C#:
+Realizar ejercicios basados en: https://www.tutorialspoint.com/csharp/csharp_events.htm
+1) Registro para eventos
+2) Simulador de compuertas logicas
+3) Calcular promedio de calificaciones de alumnos
+Subir el programa a github o bitbucket y enviar por email (daniel_nuno@hotmail.com) la liga al mismo.
+
+###################
 TAREA # 5 Eventos en C#:
 Realizar ejercicios basados en: https://www.tutorialspoint.com/csharp/csharp_events.htm
 Calculadora para generar ofertas laborales, calcular en base al salario mensual:
