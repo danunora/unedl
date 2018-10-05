@@ -28,9 +28,9 @@ namespace Herencia
             return _marca;
         }
 
-        public void setMarca(String m)
+        public void setMarca(String marca)
         {
-            _marca = m;
+            _marca = marca;
         }
 
         public String getModelo()
@@ -38,9 +38,9 @@ namespace Herencia
             return _modelo;
         }
 
-        public void setModelo(String m)
+        public void setModelo(String modelo)
         {
-            _modelo = m;
+            _modelo = modelo;
         }
 
         public int getVelocidadActual()
@@ -48,9 +48,9 @@ namespace Herencia
             return _velocidadActual;
         }
 
-        public void setVelocidadActual(int m)
+        public void setVelocidadActual(int velocidadActual)
         {
-            _velocidadActual = m;
+            _velocidadActual = velocidadActual;
         }
 
         public int getDireccionActual()
@@ -58,9 +58,9 @@ namespace Herencia
             return _direccionActual;
         }
 
-        public void setDireccionActual(int m)
+        public void setDireccionActual(int direccionActual)
         {
-            _direccionActual = m;
+            _direccionActual = direccionActual;
         }
 
         public string getEstadoMotor()
@@ -77,6 +77,5 @@ namespace Herencia
         {
             _encendido = "Llave Apagado";
         }
-
     }
 }
