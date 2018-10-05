@@ -37,7 +37,9 @@ namespace Repaso
             ferrari.encenderVehiculo();
             Console.WriteLine("Estado Motor : " + ferrari.getEncendido());
 
-            //AutoCompacto camaro = new AutoCompacto("camaro");
+            AutoCompacto camaro = new AutoCompacto("Chevrolet");
+            Console.WriteLine("Marca: " + camaro.getMarca());
+            
         }
 
     }

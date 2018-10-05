@@ -15,12 +15,20 @@ namespace Repaso
         private int _velocidades;
         private String _encendido;
 
+        // Constructor
         public AutoCompacto()
         {
             this._puertas = 2;
             this._color = "";
             this._velocidades = 5;
             this._encendido = "";
+        }
+
+        // Constructor que hace referencia al contructor de la "base"
+        // se ejecuta el constructor de la "base" 
+        public AutoCompacto(String marca)
+            : base(marca)
+        {
         }
 
         // Poliformismo

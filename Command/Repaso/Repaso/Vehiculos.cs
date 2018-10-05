@@ -8,10 +8,12 @@ namespace Repaso
 {
     class Vehiculos
     {
-        // Access Modifier 
-        // public
-        // private
-        // protected
+        // Access Modifier, sirven para encapsular
+        // public, se puede acceder desde cualquier lado
+        // private, se puede acceder unicamente en la clase donde fue declarado
+        // protected, se puede acceder unicamente en la clase donde fue declarado y sus derivadas (rompe encapsulamiento)
+        // internal, se puede acceder en el mismo assembly
+        // protected internal, se puede acceder en el mismo assambly y clases derivadas (NO SE USA)
         
         // Attributos de la Clase
         private String _marca;
@@ -20,6 +22,8 @@ namespace Repaso
         private String _encendido;
 
         // Constructor
+        // Se ejecutan siempre primero
+        // No se pueden heredar
         public Vehiculos()
         {
             this._marca = "";
@@ -73,7 +77,6 @@ namespace Repaso
         {
             return _encendido;
         }
-
 
         // Metodos parte de la clase Vehiculo
 
