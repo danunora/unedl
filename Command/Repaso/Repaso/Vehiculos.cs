@@ -34,6 +34,7 @@ namespace Repaso
             this._marca = marca;
             this._modelo = "";
             this._numeroSerie = "";
+            this._encendido = "";
         }
 
         // Getters y Setters
@@ -48,10 +49,33 @@ namespace Repaso
             _marca = marca;
         }
 
+        public String getModelo()
+        {
+            return _modelo;
+        }
+
+        public void setModelo(String modelo)
+        {
+            _modelo = modelo;
+        }
+
+        public String getNumeroSerie()
+        {
+            return _numeroSerie;
+        }
+
+        public void setNumeroSerie(String numeroSerie)
+        {
+            _numeroSerie = numeroSerie;
+        }
+
         public String getEncendido()
         {
             return _encendido;
         }
+
+
+        // Metodos parte de la clase Vehiculo
 
         public void encenderVehiculo()
         {
