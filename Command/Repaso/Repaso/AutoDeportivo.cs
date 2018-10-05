@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Repaso
 {
     // Herencia, Hereda de la clase Vehiculo
-    class AutoCompacto : Vehiculos
+    class AutoDeportivo : Vehiculos
     {
         // Atributos propios del AutoCompacto
         private int _puertas;
@@ -16,17 +16,17 @@ namespace Repaso
         private String _encendido;
 
         // Constructor
-        public AutoCompacto()
+        public AutoDeportivo()
         {
             this._puertas = 2;
             this._color = "";
-            this._velocidades = 5;
+            this._velocidades = 6;
             this._encendido = "";
         }
 
         // Constructor que hace referencia al contructor de la "base"
         // se ejecuta el constructor de la "base" 
-        public AutoCompacto(String marca)
+        public AutoDeportivo(String marca)
             : base(marca)
         {
         }
@@ -40,12 +40,12 @@ namespace Repaso
 
         public override void Encender()
         {
-            _encendido = "Boton Encendido";
+            _encendido = "Mobile Encendido";
         }
 
         public override void Apagar()
         {
-            _encendido = "Boton Apagado";
+            _encendido = "Mobile Apagado";
         }
     }
 }

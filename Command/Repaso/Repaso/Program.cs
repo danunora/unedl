@@ -23,8 +23,8 @@ namespace Repaso
             Console.WriteLine("Marca  : " + vehiculo.getMarca());
             Console.WriteLine("Modelo : " + vehiculo.getModelo());
             Console.WriteLine("Serie  : " + vehiculo.getNumeroSerie());
-            vehiculo.encenderVehiculo();
-            Console.WriteLine("Estado Motor : " + vehiculo.getEncendido());
+            vehiculo.Encender();
+            Console.WriteLine("Estado Motor : " + vehiculo.getEstadoMotor());
 
             // Herencia AutoCompacto hereda de Vehiculo
             AutoCompacto ferrari = new AutoCompacto();
@@ -34,12 +34,22 @@ namespace Repaso
             Console.WriteLine("Marca : " + ferrari.getMarca());
             Console.WriteLine("Modelo : " + ferrari.getModelo());
             Console.WriteLine("Serie  : " + ferrari.getNumeroSerie());
-            ferrari.encenderVehiculo();
-            Console.WriteLine("Estado Motor : " + ferrari.getEncendido());
+            ferrari.Encender();
+            Console.WriteLine("Estado Motor : " + ferrari.getEstadoMotor());
 
             AutoCompacto camaro = new AutoCompacto("Chevrolet");
             Console.WriteLine("Marca: " + camaro.getMarca());
-            
+
+            AutoDeportivo mclaren = new AutoDeportivo();
+            mclaren.setMarca("McLaren");
+            mclaren.setModelo("PS1");
+            mclaren.setNumeroSerie("673KMW2");
+            Console.WriteLine("Marca : " + mclaren.getMarca());
+            Console.WriteLine("Modelo : " + mclaren.getModelo());
+            Console.WriteLine("Serie  : " + mclaren.getNumeroSerie());
+            mclaren.Encender();
+            Console.WriteLine("Estado Motor : " + mclaren.getEstadoMotor());
+
         }
 
     }

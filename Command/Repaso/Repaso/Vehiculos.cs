@@ -73,19 +73,19 @@ namespace Repaso
             _numeroSerie = numeroSerie;
         }
 
-        public String getEncendido()
+        public String getEstadoMotor()
         {
             return _encendido;
         }
 
         // Metodos parte de la clase Vehiculo
 
-        public void encenderVehiculo()
+        public virtual void Encender()
         {
             _encendido = "Llave Encendido"
 ;        }
 
-        public void apagarVehiculo()
+        public virtual void Apagar()
         {
             _encendido = "Llave Apagado";
         }
