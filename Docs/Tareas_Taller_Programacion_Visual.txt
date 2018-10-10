@@ -57,3 +57,16 @@ Ejercicio # 5 en clase:
 Tutorial: Crear una aplicación sencilla con Visual C# o Visual Basic
 4) Seguir las instrucciones para crear la aplicación
 5) Subir el programa a github o bitbucket y enviar por email (daniel_nuno@hotmail.com) la liga al mismo.
+
+####################
+Tarea # 5, Altas, Bajas, Cambios
+Utilizando Indexers e interfaces, hace un programa que haga altas, bajas, cambios de un objeto
+puede ser el objeto una persona, y tener como atributo su nombre y opcionalmente apellido.
+El desarrollo puede ser utilizando WinForms o CommandLine.
+La interface debe tener:
+public interface IABC
+void Alta();
+void Baja();
+void Cambio();
+String showElemento();
+Subir el programa a github o bitbucket y enviar por email (daniel_nuno@hotmail.com) la liga al mismo.
