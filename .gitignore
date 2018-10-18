@@ -10,6 +10,7 @@
 *.png
 *.jpg
 *.gif
+*.class
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
