@@ -48,22 +48,28 @@ namespace prog
             }
         }
 
+        static void DisplayMyArray(int[] myArray)
+        {
+            foreach (int i in myArray)
+                Console.Write(i + " ");
+        }
+
         static void Main(string[] args)
         {
+            int len = 9;
             int[] numbers = { 3, 8, 7, 5, 2, 1, 9, 6, 4 };
+
+            Console.WriteLine("### Merge Sort ###");
+
             Console.WriteLine("Unsorted :");
             DisplayMyArray(numbers);
-            int len = 9;
-            Console.WriteLine("\nMergeSort :");
+
             sortmethod(numbers, 0, len - 1);
+
+            Console.WriteLine("\nMerge Sort :");
             DisplayMyArray(numbers);
             Console.Read();
         }
 
-        static void DisplayMyArray(int[] myArray)
-        {
-            foreach (int p in myArray)
-                Console.Write(p + " ");
-        }
     }
 }

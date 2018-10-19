@@ -4,13 +4,10 @@ using System;
 namespace BubbleSort
 {
     class Program
-    {        
-        static void Main(string[] args)
-        {
-            int[] arr = { 78, 55, 45, 98, 13 };
-            Console.WriteLine("UnSorted:");
-            DisplayMyArray(arr);
+    {
 
+        static public void bubblesort(int [] arr)
+        {
             int temp;
             for (int j = 0; j <= arr.Length - 2; j++)
             {
@@ -24,11 +21,6 @@ namespace BubbleSort
                     }
                 }
             }
-
-            Console.WriteLine("\nSorted:");
-            DisplayMyArray(arr);
-            Console.Read();
-
         }
 
         // Display the array
@@ -37,5 +29,24 @@ namespace BubbleSort
             foreach (int p in myArray)
                 Console.Write(p + " ");
         }
+
+        static void Main(string[] args)
+        {
+            int[] arr = { 78, 55, 45, 98, 13 };
+
+            Console.WriteLine("### Bubble Sort ###");
+
+            Console.WriteLine("UnSorted:");
+            DisplayMyArray(arr);
+
+            // Bubble sort
+            bubblesort(arr);
+
+            Console.WriteLine("\nBubble Sort:");
+            DisplayMyArray(arr);
+            Console.Read();
+
+        }
+
     }
 }

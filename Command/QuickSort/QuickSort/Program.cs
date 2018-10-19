@@ -9,33 +9,6 @@ namespace Quicksort
 {
     class Program
     {
-        static void Main(string[] args)
-        {
-            // Create an unsorted array of string elements
-            string[] unsorted = { "z", "e", "x", "c", "m", "q", "a" };
-
-            // Print the unsorted array
-            for (int i = 0; i < unsorted.Length; i++)
-            {
-                Console.Write(unsorted[i] + " ");
-            }
-
-            Console.WriteLine();
-
-            // Sort the array
-            Quicksort(unsorted, 0, unsorted.Length - 1);
-
-            // Print the sorted array
-            for (int i = 0; i < unsorted.Length; i++)
-            {
-                Console.Write(unsorted[i] + " ");
-            }
-
-            Console.WriteLine();
-
-            Console.ReadLine();
-        }
-
         public static void Quicksort(IComparable[] elements, int left, int right)
         {
             int i = left, j = right;
@@ -76,6 +49,35 @@ namespace Quicksort
                 Quicksort(elements, i, right);
             }
         }
+
+        public static void DisplayMyArray(String[] MyArray)
+        {
+            foreach (String i in MyArray)
+                Console.Write(i + " ");
+        }
+
+        static void Main(string[] args)
+        {
+            // Create an unsorted array of string elements
+            string[] unsorted = { "z", "e", "x", "c", "m", "q", "a" };
+
+            Console.WriteLine("### Quick Sort ###");
+            Console.WriteLine("Unsorted:");
+
+            // Print the unsorted array
+            DisplayMyArray(unsorted);
+            
+            // Sort the array
+            Quicksort(unsorted, 0, unsorted.Length - 1);
+
+            Console.WriteLine("\nQuick Sort:");
+
+            // Print the sorted array
+            DisplayMyArray(unsorted);
+
+            Console.ReadLine();
+        }
+
 
     }
 }
