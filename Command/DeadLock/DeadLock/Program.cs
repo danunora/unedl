@@ -1,4 +1,7 @@
-﻿using System;
+﻿// Source 
+// https://www.c-sharpcorner.com/UploadFile/1d42da/deadlock-in-threading-in-C-Sharp/
+//
+using System;
 using System.Threading;
 namespace deadlockincsharp
 {
