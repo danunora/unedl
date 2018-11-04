@@ -1,5 +1,6 @@
 Glosario
 
+######################### 1er Parcial
 CLI, GUI, NUI, OUI, HCI
 HTML, CSS, LAMP
 OOP
@@ -36,3 +37,21 @@ HTTP,
 SOAP,
 WSDL,
 UDDI
+######################### 2do Parcial
+Concurrencia
+Procesamiento en Paralelo
+future
+Race Condition
+Deadlock
+Exclusion Mutua
+Seccion Critica
+Sincronizacion
+Sleep, Wait, Task.Wait
+Lock, Mutex y SpinLock 
+Semaphore, SemaphoreSlim y los read/write locks.
+Polling
+Blocking
+Spinning
+Latency
+Overhead
+Context Switch
