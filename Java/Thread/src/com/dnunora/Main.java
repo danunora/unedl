@@ -1,21 +1,29 @@
 package com.dnunora;
 
+import static com.dnunora.ThreadColor.ANSI_GREEN;
+import static com.dnunora.ThreadColor.ANSI_PURPLE;
+import static com.dnunora.ThreadColor.ANSI_RED;
+
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
-        System.out.println("Hello from the MAIN thread");
+
+        System.out.println(ANSI_PURPLE + "Hello from the MAIN thread");
+
         Thread anotherThread = new AnotherThread();
-        anotherThread.start();
+        anotherThread.setName("ANOTHER THREAD");
+//        anotherThread.start();
+        anotherThread.run();
+
 
         // Anonymous class
         new Thread(){
             public void run() {
-                System.out.println("Hello from ANONYMOUS class thread");
+                System.out.println(ANSI_GREEN + "Hello from ANONYMOUS class thread");
             }
         }.start();
 
-        System.out.println("Hello AGAIN from the MAIN thread");
+        System.out.println(ANSI_RED + "Hello AGAIN from the MAIN thread");
 
     }
 }
