@@ -2,6 +2,7 @@ package com.dnunora;
 
 public class Main {
     public static void main(String[] args) {
+
         CountDown countdown = new CountDown();
 
         CountDownThread t1 = new CountDownThread(countdown);
@@ -17,6 +18,7 @@ public class Main {
     }
 
     static class CountDown{
+        private int i;              // heap variable
         public void doCountDown(){
             String color;
 
@@ -31,7 +33,8 @@ public class Main {
                         color = ThreadColor.ANSI_GREEN;
             }
 
-            for (int i = 10; i > 0; i--){
+            // int i, stack variable
+            for ( i = 10; i > 0; i--){
                 System.out.println(color + Thread.currentThread().getName() + ": i =" + i);
             }
         }
