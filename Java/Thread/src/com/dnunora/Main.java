@@ -12,11 +12,13 @@ public class Main {
 
         Thread anotherThread = new AnotherThread();
         anotherThread.setName("ANOTHER THREAD");
-//        anotherThread.start();
-        anotherThread.run();
 
+        // anotherThread.start() should be used to execute the new thread
+        // if run() is usead instead, it will be referring to local thread.
+        anotherThread.start();
 
-        // Anonymous class
+        // Anonymous class, should be used if only this code will be executed
+        // in other case, a class should be created.
         new Thread(){
             public void run() {
                 System.out.println(ANSI_GREEN + "Hello from ANONYMOUS class thread");
