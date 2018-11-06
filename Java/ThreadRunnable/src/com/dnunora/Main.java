@@ -31,12 +31,18 @@ public class Main {
             @Override
             public void run() {
                 System.out.println(ANSI_RED + "ANONYMOUS RUNNABLE THREAD");
+                try {
+                    anotherThread.join(); // joining a thread, time out
+                    System.out.println(ANSI_RED + "ANOTHER THREAD terminated or timed out");
+                } catch (InterruptedException e){
+                    System.out.println(ANSI_RED + "COULDN'T WAIT, INTERRUPTED");
+                }
             }
         });
         anRunnableThread.start();
 
         // Interrupt a thread, anotherThread
-        anotherThread.interrupt();
+        //anotherThread.interrupt();
 
         System.out.println(ANSI_PURPLE + "MAIN THREAD AGAIN");
     }
