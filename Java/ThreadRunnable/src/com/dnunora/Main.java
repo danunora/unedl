@@ -35,6 +35,9 @@ public class Main {
         });
         anRunnableThread.start();
 
+        // Interrupt a thread, anotherThread
+        anotherThread.interrupt();
+
         System.out.println(ANSI_PURPLE + "MAIN THREAD AGAIN");
     }
 }
