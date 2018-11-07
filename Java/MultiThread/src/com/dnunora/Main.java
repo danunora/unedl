@@ -17,7 +17,7 @@ public class Main {
     }
 
     static class CountDown{
-        private int i;              // instance or heap variable
+        private int i;                    // instance or heap variable
         public void doCountDown(){
             String color;
 
@@ -32,8 +32,7 @@ public class Main {
                         color = ThreadColor.ANSI_GREEN;
             }
 
-            // int i, local or stack variable
-            for ( i = 10; i > 0; i--){
+            for ( i = 10; i > 0; i--){    // int i, local or stack variable
                 System.out.println(color + Thread.currentThread().getName() + ": i =" + i);
             }
         }
