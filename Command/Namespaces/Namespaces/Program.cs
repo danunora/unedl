@@ -12,17 +12,24 @@ namespace primer_namespace
     {
         public void func()
         {
-            Console.WriteLine("primer namespace");
+            Console.WriteLine("Abc func primer namespace");
         }
     }
 
     namespace segundo_namespace
     {
+        class Abc
+        {
+            public void func()
+            {
+                Console.WriteLine("Abc func segundo namespace");
+            }
+        }
         class Efg
         {
             public void func()
             {
-                Console.WriteLine("segundo namespace");
+                Console.WriteLine("Efg func segundo namespace");
             }
         }
     }
