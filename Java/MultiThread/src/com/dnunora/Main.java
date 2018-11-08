@@ -18,7 +18,7 @@ public class Main {
 
     static class CountDown{
         private int i;         // instance or heap variable
-        public void doCountDown(){
+        public synchronized void doCountDown(){
             String color;
 
             switch (Thread.currentThread().getName()){
