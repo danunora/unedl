@@ -18,7 +18,7 @@ namespace ThreadRaceCondition
         // Each thread should be doing a countdown
         static void doCountDown()
         {
-            for ( i = 0; i <= CICLOS; i++)
+            for ( i = 0; i <= CICLOS; i++) // Race condition
             {
                 Console.WriteLine("THREAD: {0}, CICLO: {1}",Thread.CurrentThread.Name,i);
             }

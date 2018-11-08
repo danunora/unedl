@@ -8,14 +8,16 @@ using System.Threading;
 using System.Threading.Tasks;
 
 namespace SemaphoresTheClub
+
 {
     class Program
-    {        
-        static SemaphoreSlim _sem = new SemaphoreSlim(3);    // Capacity of 3 into the club
+    {
+        const int PEOPLE = 7;                              // There are 7 persons waiting 
+        static SemaphoreSlim _sem = new SemaphoreSlim(3);  // Capacity of 3 into the club
 
         static void Main()
         {
-            for (int i = 1; i <= 10; i++)
+            for (int i = 1; i <= PEOPLE; i++)
             {
                 new Thread(Enter).Start(i);
             }
