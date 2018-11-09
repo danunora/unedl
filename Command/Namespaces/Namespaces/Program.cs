@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using primer_namespace;
 using primer_namespace.segundo_namespace;
+using Abc = primer_namespace.Abc;
 
 namespace primer_namespace
 {

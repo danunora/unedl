@@ -1,3 +1,4 @@
+******************************** 1er Parcial *************************
 ##################
 TAREA # 1 Tipos de datos utilizados en C#:
 Realizar un programa que muestre los diferentes tipos de datos utilizados en C#, 
@@ -70,3 +71,40 @@ void Baja();
 void Cambio();
 String showElemento();
 Subir el programa a github o bitbucket y enviar por email (daniel_nuno@hotmail.com) la liga al mismo.
+
+******************************** 2do Parcial *************************
+
+########################
+TAREA # 6 algoritmos de ordenamiento C#:
+Hacer una forma que pida un conjunto de números enteros, agregar botones que permitan 
+implementar los siguientes algoritmos de ordenamiento: quick sort, bubble sort, 
+merge sort y heap sort, agregar un campo que despliegue el resultado. 
+
+Subir el programa a github o bitbucket y enviar por email (daniel_nuno@hotmail.com) la liga al mismo.
+
+########################
+Ejercicio # 6 en clase: 
+Control de Excepciones 
+En base a la página: 
+https://docs.microsoft.com/en-us/dotnet/api/system.exception
+Realizar el ejercicio de implementar una excepción personalizada.
+Subir el programa a github o bitbucket y enviar por email (daniel_nuno@hotmail.com) la liga al mismo.
+
+########################
+Ejercicio # 7 en clase: 
+Reloj Checador 
+En base a las páginas: 
+https://www.tutorialspoint.com/csharp/csharp_file_io.htm
+https://github.com/danunora/unedl/tree/master/Command/DateTime_TimeSpan
+Realizar el ejercicio de implementar un Reloj Checador.
+Registrar entradas y salidas de varias personas en un archivo de texto
+Formato del registro: <persona><entrada/salida><fecha><hora>
+Windows Form
+Forma de Registro
+Forma de Búsqueda por persona de entradas y salidas, debe listar el contenido del archivo de txt.
+Subir el programa a github o bitbucket y enviar por email (daniel_nuno@hotmail.com) la liga al mismo.
+
+########################
+TAREA # 7 :
+Investigación de Java Native Interface (JNI) y un ejemplo:
+Subir el documento y/o programa a github o bitbucket y enviar por email (daniel_nuno@hotmail.com) la liga al mismo.

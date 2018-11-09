@@ -1,4 +1,5 @@
-﻿##################
+﻿******************************** 1er Parcial *************************
+##################
 TAREA # 1 INVESTIGAR:
 En que consiste cada uno de los siguientes paradigmas de programación y ejemplos de lenguajes de programación: 
 Programación Estructurada
@@ -47,3 +48,35 @@ Ley: Aguinaldo, vacaciones, Infonavit, IMSS, RCV
 Empresa: SGMM, Vales Despensa, Comedor*, Seguro de Vida*
 *fija, resto es %.
 Subir el programa a github o bitbucket y enviar por email (daniel_nuno@hotmail.com) la liga al mismo.
+
+******************************** 2do Parcial *************************
+########################
+TAREA # 6 Spinning, Deadlock:
+Basado en el ejercicio de Deadlock, modificarlo para en lugar de utilizar un ‘sleep’, 
+se haga un ciclo y se cuente cuanto tiempo se debería usar en el ‘sleep’, para que el programa funcione.
+https://github.com/danunora/unedl/tree/master/Command/DeadLock
+Subir el programa a github o bitbucket y enviar por email (daniel_nuno@hotmail.com) la liga al mismo.
+
+########################
+TAREA # 7 Algoritmo de Peterson/Dekker:
+Realizar una exposición acerca de:
+Algoritmo de Peterson (Sergio, Brian, Kevin, Luis)
+Algoritmo de Dekker (Miguel, Ivan, Octavio, Santos)
+Subir el programa a github o bitbucket y enviar por email (daniel_nuno@hotmail.com) la liga al mismo.
+
+########################
+Ejercicio # 2 en clase:
+Reloj Checador Multithread:
+En base al ejercicio del Reloj Checador (FileStream), realizar una simulación de que varias personas checan su entrada/salida.
+Cada persona será un thread, 
+La persona puede checar entrada o salida
+http://www.johandorper.com/log/thread-safe-file-writing-csharp
+Subir el programa a github o bitbucket y enviar por email (daniel_nuno@hotmail.com) la liga al mismo.
+
+########################
+TAREA # 8 Glosario: 2do Parcial
+Descripciones en no menos de tres líneas
+Ordenado alfabéticamente
+Con excelente ortografía
+Incrementando a lo largo del curso
+En cada parcial se preguntaran términos del Glosario que cuentan para la calificación

@@ -1,5 +1,5 @@
-﻿//#define DEBUG
-//#define LOGLEVEL
+﻿#define DEBUG
+#define LOGLEVEL3
 
 //#define LOGLEVEL1
 // LOGLEVELS:
