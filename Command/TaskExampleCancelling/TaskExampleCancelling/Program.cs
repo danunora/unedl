@@ -10,8 +10,8 @@ namespace IntroducingTasks
         static void Main(string[] args)
         {
             CancelableTasks();
-            MonitoringCancelation();
-            CompositeCancelationToken();
+            //MonitoringCancelation();
+            //CompositeCancelationToken();
 
             Console.WriteLine("Main program done, press any key.");
             Console.ReadKey();
@@ -147,18 +147,18 @@ namespace IntroducingTasks
             Task t = new Task(() =>
             {
                 int i = 0;
-                while (true)
-                {
-                    if (token.IsCancellationRequested) // task cancelation is cooperative, no-one kills your thread
-                        break;
+                while (true) {
+                    if (token.IsCancellationRequested)
+                    {        // task cancelation is cooperative, no-one kills your thread
+                        break;                                       // option 1
+                        //throw new OperationCanceledException();      // option 2
+                    }
                     else
                         Console.WriteLine($"{i++}\t");
                 }
             });
             t.Start();
-
             // don't forget CancellationToken.None
-
             Console.ReadKey();
             cts.Cancel();
             Console.WriteLine("Task has been canceled.");
