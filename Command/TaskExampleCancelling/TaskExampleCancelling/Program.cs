@@ -148,12 +148,13 @@ namespace IntroducingTasks
             {
                 int i = 0;
                 while (true) {
-                    if (token.IsCancellationRequested)
+                    token.ThrowIfCancellationRequested();            // option 3
+/*                    if (token.IsCancellationRequested)
                     {        // task cancelation is cooperative, no-one kills your thread
                         break;                                       // option 1
                         //throw new OperationCanceledException();      // option 2
                     }
-                    else
+                    else */
                         Console.WriteLine($"{i++}\t");
                 }
             });
