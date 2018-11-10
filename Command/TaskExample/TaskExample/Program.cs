@@ -53,10 +53,8 @@ namespace TaskExample
 
         static void Main(string[] args)
         {
-
             //Test1();
-            //Test2();
-            
+            //Test2();            
             // Test 3 
             string text1 = "testing", text2 = "this";
             var task1 = new Task<int>(TextLength, text1);
