@@ -1,4 +1,6 @@
-﻿using System;
+﻿// source: https://www.udemy.com/parallel-dotnet/learn/v4/content
+
+using System;
 using System.Runtime.InteropServices;
 using System.Threading;
 using System.Threading.Tasks;
@@ -86,9 +88,8 @@ namespace IntroducingTasks
                 int i = 0;
                 while (true)
                 {
-                    if (token.IsCancellationRequested) // 1. Soft exit
-                                                       // RanToCompletion
-                    {
+                    if (token.IsCancellationRequested)  // 1. Soft exit                                                       
+                    {                                   // RanToCompletion
                         break;
                     }
                     else
@@ -108,7 +109,6 @@ namespace IntroducingTasks
                 {
                     // alternative to what's below
                     token.ThrowIfCancellationRequested(); // 2. Hard exit, Canceled
-
                     if (token.IsCancellationRequested) // same as above, start HERE
                     {
                         // release resources, if any
@@ -148,10 +148,10 @@ namespace IntroducingTasks
             {
                 int i = 0;
                 while (true) {
-                    token.ThrowIfCancellationRequested();            // option 3
+                    token.ThrowIfCancellationRequested();              // option 3
 /*                    if (token.IsCancellationRequested)
                     {        // task cancelation is cooperative, no-one kills your thread
-                        break;                                       // option 1
+                        break;                                         // option 1
                         //throw new OperationCanceledException();      // option 2
                     }
                     else */
