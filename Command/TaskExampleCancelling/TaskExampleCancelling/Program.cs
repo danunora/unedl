@@ -11,8 +11,8 @@ namespace IntroducingTasks
     {
         static void Main(string[] args)
         {
-            CancelableTasks();
-            //MonitoringCancelation();
+            //CancelableTasks();
+            MonitoringCancelation();
             //CompositeCancelationToken();
 
             Console.WriteLine("Main program done, press any key.");
@@ -48,11 +48,9 @@ namespace IntroducingTasks
             var planned = new CancellationTokenSource();
             var preventative = new CancellationTokenSource();
             var emergency = new CancellationTokenSource();
-
             // make a token source that is linked on their tokens
             var paranoid = CancellationTokenSource.CreateLinkedTokenSource(
               planned.Token, preventative.Token, emergency.Token);
-
             Task.Factory.StartNew(() =>
             {
                 int i = 0;
@@ -63,26 +61,20 @@ namespace IntroducingTasks
                     Thread.Sleep(100);
                 }
             }, paranoid.Token);
-
             paranoid.Token.Register(() => Console.WriteLine("Cancelation requested"));
-
-            Console.ReadKey();
-
-            // use any of the aforementioned token soures
-            emergency.Cancel();
+            Console.ReadKey();            
+            emergency.Cancel();   // use any of the aforementioned token soures
         }
 
         private static void MonitoringCancelation()
         {
             var cts = new CancellationTokenSource();
             var token = cts.Token;
-
             // register a delegate to fire
             token.Register(() =>
             {
                 Console.WriteLine("Cancelation has been requested.");
             });
-
             Task t = new Task(() =>
             {
                 int i = 0;
@@ -100,7 +92,6 @@ namespace IntroducingTasks
                 }
             });
             t.Start();
-
             // canceling multiple tasks
             Task t2 = Task.Factory.StartNew(() =>
             {
@@ -121,20 +112,15 @@ namespace IntroducingTasks
                     }
                 }
             }, token); // don't do token, show R# magic
-
             // cancellation on a wait handle
             Task.Factory.StartNew(() =>
             {
                 token.WaitHandle.WaitOne();
                 Console.WriteLine("Wait handle released, thus cancelation was requested");
             });
-
             Console.ReadKey();
-
             cts.Cancel();
-
             Thread.Sleep(1000); // cancelation is non-instant
-
             Console.WriteLine($"Task has been canceled. The status of the canceled task 't' is {t.Status}.");
             Console.WriteLine($"Task has been canceled. The status of the canceled task 't2' is {t2.Status}.");
             Console.WriteLine($"t.IsCanceled = {t.IsCanceled}, t2.IsCanceled = {t2.IsCanceled}");

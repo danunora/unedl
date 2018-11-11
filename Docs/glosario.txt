@@ -45,6 +45,7 @@ Race Condition
 Deadlock
 Exclusion Mutua
 Seccion Critica
+Atomicidad
 Sincronizacion
 Sleep, Wait, Task.Wait
 Lock, Mutex y SpinLock 
