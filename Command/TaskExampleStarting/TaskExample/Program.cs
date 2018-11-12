@@ -57,7 +57,8 @@ namespace TaskExample
         {
             //Test1();
             //Test2();            
-            // Test 3 
+            // Test 3
+            
             string text1 = "testing", text2 = "this";
             var task1 = new Task<int>(TextLength, text1);
             task1.Start();
@@ -66,8 +67,8 @@ namespace TaskExample
 
             Console.WriteLine($"\nLenght of '{text1}' is {task1.Result}");
             Console.WriteLine($"Lenght of '{text2}' is {task2.Result}");
-
-            Console.WriteLine("Main program done");
+            
+    Console.WriteLine("Main program done");
             Console.ReadKey();
         }
     }

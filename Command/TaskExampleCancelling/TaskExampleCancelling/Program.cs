@@ -11,8 +11,10 @@ namespace IntroducingTasks
     {
         static void Main(string[] args)
         {
-            //CancelableTasks();
-            MonitoringCancelation();
+            CancelableTasksOpt1();
+            //CancelableTasksOpt2();
+            //CancelableTasksOpt3();
+            //MonitoringCancelation();
             //CompositeCancelationToken();
 
             Console.WriteLine("Main program done, press any key.");
@@ -126,21 +128,42 @@ namespace IntroducingTasks
             Console.WriteLine($"t.IsCanceled = {t.IsCanceled}, t2.IsCanceled = {t2.IsCanceled}");
         }
 
-        private static void CancelableTasks()
+        // cancelling a task, option 3
+        private static void CancelableTasksOpt3()
         {
             var cts = new CancellationTokenSource();
             var token = cts.Token;
             Task t = new Task(() =>
             {
                 int i = 0;
-                while (true) {
-                    token.ThrowIfCancellationRequested();              // option 3
-/*                    if (token.IsCancellationRequested)
+                while (true)
+                {
+                    token.ThrowIfCancellationRequested(); 
+                    Console.WriteLine($"{i++}\t");
+                }
+            });
+            t.Start();
+            // don't forget CancellationToken.None
+            Console.ReadKey();
+            cts.Cancel();
+            Console.WriteLine("Task has been canceled with Cancellation Option 3.");
+        }
+
+        // cancelling a task, option 2
+        private static void CancelableTasksOpt2()
+        {
+            var cts = new CancellationTokenSource();
+            var token = cts.Token;
+            Task t = new Task(() =>
+            {
+                int i = 0;
+                while (true)
+                {
+                    if (token.IsCancellationRequested)
                     {        // task cancelation is cooperative, no-one kills your thread
-                        break;                                         // option 1
-                        //throw new OperationCanceledException();      // option 2
+                        throw new OperationCanceledException();      // option 2
                     }
-                    else */
+                    else
                         Console.WriteLine($"{i++}\t");
                 }
             });
@@ -148,7 +171,31 @@ namespace IntroducingTasks
             // don't forget CancellationToken.None
             Console.ReadKey();
             cts.Cancel();
-            Console.WriteLine("Task has been canceled.");
+            Console.WriteLine("Task has been canceled with Cancellation Option 2.");
+        }
+
+        // cancelling a task, option 1
+        private static void CancelableTasksOpt1()
+        {
+            var cts = new CancellationTokenSource();
+            var token = cts.Token;
+            Task t = new Task(() =>
+            {
+                int i = 0;
+                while (true) {
+                    if (token.IsCancellationRequested)
+                    {
+                        break;                                        
+                    }
+                    else 
+                        Console.WriteLine($"{i++}\t");
+                }
+            });
+            t.Start();
+            // don't forget CancellationToken.None
+            Console.ReadKey();
+            cts.Cancel();
+            Console.WriteLine("Task has been canceled with Cancellation Option 1.");
         }
     }
 }
