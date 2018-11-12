@@ -68,7 +68,7 @@ namespace TaskExample
             Console.WriteLine($"\nLenght of '{text1}' is {task1.Result}");
             Console.WriteLine($"Lenght of '{text2}' is {task2.Result}");
             
-    Console.WriteLine("Main program done");
+            Console.WriteLine("Main program done");
             Console.ReadKey();
         }
     }
