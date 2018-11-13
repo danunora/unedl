@@ -1,4 +1,5 @@
-﻿using System;
+﻿// source: https://www.udemy.com/parallel-dotnet/learn/v4/content
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,7 +16,7 @@ namespace TaskExampleWaiting
             var token = cts.Token;
             Task t1 = new Task(() =>
             {
-                Console.WriteLine("Press any key to disarm; you have 5 seconds");
+                Console.WriteLine("You have 5 seconds");
                 for (int i = 0; i < 5; i++)
                 {
                     token.ThrowIfCancellationRequested();
