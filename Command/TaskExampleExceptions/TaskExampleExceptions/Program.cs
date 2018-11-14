@@ -37,10 +37,19 @@ namespace IntroducingTasks
             }
             catch (AggregateException ae)
             {
-                foreach (Exception e in ae.InnerExceptions)
+                ae.Handle(e =>
                 {
-                    Console.WriteLine($"Exception {e.GetType()} from {e.Source}.");
-                }
+                    if (e is InvalidOperationException)
+                    {
+                        Console.WriteLine("Invalid Operation!");
+                        return true;
+                    }
+                    else return false;
+                });
+                //foreach (Exception e in ae.InnerExceptions)
+                //{
+                //    Console.WriteLine($"Exception {e.GetType()} from {e.Source}.");
+                //}
             }
         }
     }
