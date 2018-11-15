@@ -12,7 +12,18 @@ namespace IntroducingTasks
     {
         public static void Main()
         {
-            Test();
+            //Test();
+            try
+            {
+                Test();
+            }
+            catch(AggregateException ae)
+            {
+                foreach (Exception e in ae.InnerExceptions)
+                {
+                    Console.WriteLine($"Exception {e.GetType()} from {e.Source}.");
+                }
+            }
             Console.WriteLine("Main program done.");
             Console.ReadKey();
         }
@@ -44,12 +55,9 @@ namespace IntroducingTasks
                         Console.WriteLine("Invalid Operation!");
                         return true;
                     }
-                    else return false;
+                    else
+                        return false;
                 });
-                //foreach (Exception e in ae.InnerExceptions)
-                //{
-                //    Console.WriteLine($"Exception {e.GetType()} from {e.Source}.");
-                //}
             }
         }
     }

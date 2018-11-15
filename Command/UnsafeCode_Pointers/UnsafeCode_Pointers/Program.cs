@@ -13,6 +13,15 @@ namespace UnsafeCode_Pointers
             Pointers1();
             Console.ReadKey();
             Pointers2();
+            Console.ReadKey();
+            Pointers3();
+        }
+
+        unsafe private static void Pointers3()
+        {
+            int* a = stackalloc int[10];
+            for (int i = 0; i < 10; ++i)
+                Console.WriteLine(a[i]);   // Print raw memory
         }
 
         unsafe private static void Pointers2()
