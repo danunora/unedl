@@ -103,8 +103,3 @@ Windows Form
 Forma de Registro
 Forma de Búsqueda por persona de entradas y salidas, debe listar el contenido del archivo de txt.
 Subir el programa a github o bitbucket y enviar por email (daniel_nuno@hotmail.com) la liga al mismo.
-
-########################
-TAREA # 7 :
-Investigación de Java Native Interface (JNI) y un ejemplo:
-Subir el documento y/o programa a github o bitbucket y enviar por email (daniel_nuno@hotmail.com) la liga al mismo.

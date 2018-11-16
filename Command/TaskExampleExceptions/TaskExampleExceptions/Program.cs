@@ -17,7 +17,7 @@ namespace IntroducingTasks
             {
                 Test();
             }
-            catch(AggregateException ae)
+            catch (AggregateException ae)
             {
                 foreach (Exception e in ae.InnerExceptions)
                 {
