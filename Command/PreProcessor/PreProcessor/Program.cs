@@ -1,4 +1,10 @@
-﻿#define DEBUG
+﻿// Define a symbol named DEBUG
+
+//#define DEBUG
+
+// Undefine the symbol DEBUG
+#undef DEBUG
+
 #define LOGLEVEL3
 
 //#define LOGLEVEL1
@@ -8,7 +14,6 @@
 // LOGLEVEL3, Errors
 // LOGLEVEL5, All (Notice, Warnings, Errors)
 // Comment, No log level 
-
 
 using System;
 using System.Collections.Generic;
@@ -25,6 +30,7 @@ namespace PreProcessor
 #if DEBUG
             Console.WriteLine("Debugger is Enabled");
 #endif
+            Console.WriteLine("Another part of the code goes here");
 #if LOGLEVEL1
             Console.WriteLine("Log level is notice");
 #elif LOGLEVEL2
@@ -36,6 +42,7 @@ namespace PreProcessor
 #else
       Console.WriteLine("No log level was used");
 #endif
+            Console.WriteLine("More code");
         }
     }
 }
