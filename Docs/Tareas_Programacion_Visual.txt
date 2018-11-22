@@ -80,9 +80,3 @@ Ordenado alfabéticamente
 Con excelente ortografía
 Incrementando a lo largo del curso
 En cada parcial se preguntaran términos del Glosario que cuentan para la calificación
-
-########################
-TAREA # 9 Ver video y realizar un ensayo
-Ver el siguiente video acerca de manejo de memoria y el recolector de basura, y realizar un ensayo:
-https://www.youtube.com/watch?v=9FEfy9y0fFQ
-Subir el programa/documento a github o bitbucket y enviar por email (daniel_nuno@hotmail.com) la liga al mismo.
