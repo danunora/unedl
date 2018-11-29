@@ -58,3 +58,5 @@ Overhead
 Context Switch
 Locking
 Mutex
+******************************** 3er Parcial *************************
+.NET Garbage Collector Generations

@@ -104,8 +104,17 @@ Forma de Registro
 Forma de Búsqueda por persona de entradas y salidas, debe listar el contenido del archivo de txt.
 Subir el programa a github o bitbucket y enviar por email (daniel_nuno@hotmail.com) la liga al mismo.
 
+******************************** 3er Parcial *************************
+
 ########################
 TAREA # 7 Ver video y realizar un ensayo
 Ver el siguiente video acerca de manejo de memoria y el recolector de basura, y realizar un ensayo:
 https://www.youtube.com/watch?v=9FEfy9y0fFQ
 Subir el programa/documento a github o bitbucket y enviar por email (daniel_nuno@hotmail.com) la liga al mismo.
+
+########################
+TAREA # 8 Investigación acerca de GC en Java
+Ver el siguiente video acerca del recolector de basura, y realizar un ensayo:
+https://www.youtube.com/watch?v=Uj1_4shgXpk
+Subir el programa/documento a github o bitbucket y enviar por email (daniel_nuno@hotmail.com) la liga al mismo.
+
