@@ -79,7 +79,6 @@ TAREA # 6 algoritmos de ordenamiento C#:
 Hacer una forma que pida un conjunto de números enteros, agregar botones que permitan 
 implementar los siguientes algoritmos de ordenamiento: quick sort, bubble sort, 
 merge sort y heap sort, agregar un campo que despliegue el resultado. 
-
 Subir el programa a github o bitbucket y enviar por email (daniel_nuno@hotmail.com) la liga al mismo.
 
 ########################
@@ -117,4 +116,3 @@ TAREA # 8 Investigación acerca de GC en Java
 Ver el siguiente video acerca del recolector de basura, y realizar un ensayo:
 https://www.youtube.com/watch?v=Uj1_4shgXpk
 Subir el programa/documento a github o bitbucket y enviar por email (daniel_nuno@hotmail.com) la liga al mismo.
-
