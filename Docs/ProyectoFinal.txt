@@ -1,0 +1,33 @@
+Proyecto Escolar
+
+Examen de Certificacion para Desarrolladores de Software
+
+El proyecto consiste en realizar un examen a un usario de sus
+conocimientos sobre programacion visual y C#.
+
+Se tendra un acervo de 100 preguntas minimo, de las cuales 
+se haran 20 preguntas por persona. Las preguntas seran 
+de opcion multiple o de que el el usuario seleccione la 
+respusta correcta. No habra preguntas abiertas, ya que el software
+debera calificar el examen al finalizarlo.
+
+El usuario debera recibir su resultado por correo. 
+
+Consideraciones:
+1) El usuario debera inscribirse utilizando su email.
+2) Las preguntas del examen se deberan sacar de un archivo de manera aleatoria.
+3) Las preguntas del examen no podran ser repetidas o haberse usado previamente.
+4) Habra 2 tipo de preguntas:
+	- Opcion Multiple utilizando Check Boxes
+	- Seleccion de opcion, utilizando Radio Buttons
+5) Para aceptar codigo, se debera someter a "code review" incluyendo al profesor.	
+	
+Equipo 1, https://bitbucket.org/unedl2018b4at1/equipo1/src/master/ 
+1) Kevin, zyotchatmajo@gmail.com
+2) Santos, luisenrique.san.lan@gmail.com
+3) Many, elmejorlui@gmail.com
+
+Equipo 2, https://bitbucket.org/unedl2018b4at2/equipo2/src/master/ 
+1) Miguel, mike.gm.117@gmail.com
+2) Sergio, sherrera1695@gmail.com
+3) Ivan, navi.248@hotmail.com
