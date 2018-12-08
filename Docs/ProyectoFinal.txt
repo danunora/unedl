@@ -1,4 +1,4 @@
-Proyecto Escolar
+<<< Proyecto Escolar >>>
 
 Examen de Certificacion para Desarrolladores de Software
 
@@ -7,8 +7,10 @@ conocimientos sobre programacion visual y C#.
 
 Se tendra un acervo de 100 preguntas minimo, de las cuales 
 se haran 20 preguntas por persona. Las preguntas seran 
-de opcion multiple o de que el el usuario seleccione la 
-respusta correcta. No habra preguntas abiertas, ya que el software
+de opcion multiple o de que el usuario seleccione la 
+respuesta correcta. 
+
+No habra preguntas abiertas, ya que el software
 debera calificar el examen al finalizarlo.
 
 El usuario debera recibir su resultado por correo. 
@@ -20,7 +22,8 @@ Consideraciones:
 4) Habra 2 tipo de preguntas:
 	- Opcion Multiple utilizando Check Boxes
 	- Seleccion de opcion, utilizando Radio Buttons
-5) Para aceptar codigo, se debera someter a "code review" incluyendo al profesor.	
+5) El usuario tiene 30 minutos para contestar el examen
+6) Para aceptar codigo, se debera someter a "code review" incluyendo al profesor.	
 	
 Equipo 1, https://bitbucket.org/unedl2018b4at1/equipo1/src/master/ 
 1) Kevin, zyotchatmajo@gmail.com
@@ -31,3 +34,47 @@ Equipo 2, https://bitbucket.org/unedl2018b4at2/equipo2/src/master/
 1) Miguel, mike.gm.117@gmail.com
 2) Sergio, sherrera1695@gmail.com
 3) Ivan, navi.248@hotmail.com
+4) Octavio, 
+
+##################### 12/7/2018 Minuta
+Formato del Archivo de Preguntas
+
+ID, Tipo Pregunta, Pregunta, Respuesta1, Respuesta2, Respuesta3, Respuesta4, Respuesta (binario)
+3, 1, String, String, String, String, String, String
+
+El campo Respuesta debe indicar cual es la respuesta correcta utilizando formato binario.
+Ejemplo:
+1100, las respuestas 1 y 2 son correctas
+1000, unicamente la respuesta 1 es la correcta
+1111, Las 4 respuestas son correctas
+
+ToDo List (Lista de Tareas)
+1) Crear el archivo de preguntas
+- se necesita el formato del archivo de preguntas
+- 100 preguntas con sus respuestas
+- Utilizar Excel y exportar a CSV (Comma Separated Values)
+- Algoritmo para validar, abrir, buscar, sacar de forma aleatoria, leer campos en el archivo
+2) Archivo Temporal
+- Se necesita un archivo temporal para ir guardando el progreso del usuario
+- Se necesita el formato del archivo temporal
+- Algoritmo para crear, validar, escribir y leer del archivo temporal
+- Se debera guardar el timestamp (fecha/hora) de la aplicacion del examen
+- Se debera guardar el score del usuario en el siguiente formato:
+	- # de preguntas correctas / Total de Preguntas, ejemplo:
+		- 1/20, una pregunta correcta de 20
+3) Ventanas
+- Ventana de Registro
+	- Validar que el usuario este utilizando un email valido
+- Ventana de instrucciones para el usuario
+	- El usuario tiene 30 minutos para contestar el examen
+	- Si cierra la ventana se anula el examen
+- Ventana de Preguntas
+	- La ventana se debera crear en base al tipo de preguntas
+	- Dos tipos, check box o radio button
+    - Algoritmo para leer la pregunta y en base al campo de tipo de pregunta dibujar la ventana
+- Ventana de Resultados
+	- Una vez terminado el examen, se debera entregar el resultado al usuario y su calificacion
+    - si contesta las 20 preguntas correctas es 100, se debera calcular el porcentaje, ejemplo:
+		- 20 = 100%
+		- 10 = 50%
+		- 5 = 25%
