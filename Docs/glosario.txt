@@ -60,3 +60,27 @@ Locking
 Mutex
 ******************************** 3er Parcial *************************
 .NET Garbage Collector Generations
+SOA
+REST
+WSDL
+XML
+WS-Policy
+SSL
+WS-SecureConversation
+named pipes
+MSMQ
+MTOM
+Mensaje
+Servicio
+Punto de servicio (endpoint)
+Punto de servicio de aplicación
+Punto de servicio de infraestructura
+Dirección
+Binding
+Binding Element
+Behaviours
+system-provided bindings
+Configuration vs coding
+Service operation
+Service contract
+Operation contract

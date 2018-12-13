@@ -82,3 +82,22 @@ Incrementando a lo largo del curso
 En cada parcial se preguntaran términos del Glosario que cuentan para la calificación
 
 ******************************** 3er Parcial *************************
+TAREA # 9 Java RMI, C# WCF: 3er Parcial
+Realizar una investigación acerca de:
+Java RMI (Remote Method Invocation)
+Spring MVC
+WCF (Windows Communication Foundation)
+ASP.NET
+Subir el documento a github o bitbucket y enviar por email (daniel_nuno@hotmail.com) la liga al mismo.
+
+TAREA # 10 Glosario: 3er Parcial
+Descripciones en no menos de tres líneas
+Ordenado alfabéticamente
+Con excelente ortografía
+Incrementando a lo largo del curso
+En cada parcial se preguntaran términos del Glosario que cuentan para la calificación
+
+TAREA # 11 C# WCF Tutorial: 3er Parcial
+Realizar el siguiente tutorial de WCF:
+https://docs.microsoft.com/en-us/dotnet/framework/wcf/getting-started-tutorial 
+Subir el documento/software a github o bitbucket y enviar por email (daniel_nuno@hotmail.com) la liga al mismo.

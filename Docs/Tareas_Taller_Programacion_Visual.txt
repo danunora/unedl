@@ -116,3 +116,10 @@ TAREA # 8 Investigación acerca de GC en Java
 Ver el siguiente video acerca del recolector de basura, y realizar un ensayo:
 https://www.youtube.com/watch?v=Uj1_4shgXpk
 Subir el programa/documento a github o bitbucket y enviar por email (daniel_nuno@hotmail.com) la liga al mismo.
+
+########################
+TAREA # 9 Proyecto Escolar
+
+########################
+TAREA #10 (EXTRA) Ver la pelicula y hacer un ensayo: "That Sugar Film"
+https://www.pelispedia.tv/pelicula/that-sugar-film/
