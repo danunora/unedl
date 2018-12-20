@@ -1,1 +1,7 @@
 https://github.com/danunora/unedl
+
+Tutorial de GIT
+https://es.atlassian.com/git/tutorials/learn-git-with-bitbucket-cloud
+
+Code Review using GIT and BITBUCKET
+https://www.atlassian.com/git/tutorials/learn-about-code-review-in-bitbucket-cloud

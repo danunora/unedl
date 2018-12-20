@@ -1,0 +1,31 @@
+ID, Tipo Pregunta, Pregunta, Respuesta1, Respuesta2, Respuesta3, Respuesta4, Correcta
+,,"Seleccione la respuesta que mejor describa el concepto de ""clase""",Colleccion de objectos que se comunican,Es un comportamiento que hace un objeto,Tiene estados y comportamientos,Template o formato que describe el comportamiento o estado de un objeto,0001
+,,Seleccione todos los niveles de acceso que provee Java,Visible para el paquete (default),Visible para la clase (private),Visible para todos (public),Visible para el paquete y subclases (protected),1111
+,,Seleccione todos los niveles de acceso que provee Java,Visible para el paquete (native),Visible para la clase (private),Visible para todos (public),Visible para el paquete y subclases (protected),0111
+,,Seleccione todos los editores de Microsoft usados para C#,Visual Studio,Netbeans,Notepad++,Eclipse,1000
+,,Seleccione el software de versionamiento que conoce,git,ver,dir,svn,1001
+,,"Seleccione el resultado de la expresion: 
+int x = 0;
+int y = 0;
+int z = 0;
+x = y = z = 17;
+System.out.println(x + y + z);",17,51,171717,Exception,0100
+,,"Seleccione el resultado de la expresion: 
+int x = 5;
+int y = 3;
+int z = 3;
+x = y = z = 17;
+Console.Writeline(x + y + z);",17,171717,51,Exception,0010
+,,Seleccione que son las Colecciones,Conjunto de clases y metodos relacionados agrupados dentro de una collecion,Clases especializadas que se utilizan para manejar varios valores u objetos diferentes,Colleccion de objectos que se comunican,Conjunto de metodos dentro de una clase,0100
+,,Seleccione las respuestas correctas,try se usa para identificar un bloque de codigo donde se podria generar una excepcion,catch acompaña al try y sirve para atrapar excepciones generadas en el bloque de try,finally se utiliza para ejecutar una accion independientemente del resultado del try,throw se usa para lanzar una excepcion al encontrar algun problema,1111
+,,Seleccione las respuestas correctas,Polimorfismo se dice de la capacidad de un objeto de adaptarse a varias formas de llamarlo,Polimorfismo se dice a un objeto que puede recibir varios parametros,Polimorfismo es la capacidad de un objeto de tener varias formas,Polimorfismo se dice de una clase que puede cambiar de forma,0010
+,,Seleccione las respuestas correctas,Herencia se dice cuando una clase puede cambiar de forma,Herencia se dice cuando una clase obtiene metodos y atributos de una clase padre,Herencia es la capacidad de un metodo de recibir parametros heredados,Herencia es cuando un objeto místico hereda sus propiedades,0100
+,,Quien es el padre de Java ?,James Rodriguez,James Gosling,Anders Hejlsberg,Bill Gates,0100
+,,Quien es el padre de C# ?,James Rodriguez,James Gosling,Anders Hejlsberg,Bill Gates,0010
+,,Seleccione las respuestas correctas,StreamReader y StreamWriter permiten la lectura y escritura desde y hacia la consola,StreamReader y StreamWriter son clases que se heredan de la clase Stream,StreamReader y StreamWriter son metodos de la clase Stream,StreamReader y StreamWriter son clases de apoyo que permiten la lectura y escritura convirtiendo bytes en caracteres y viceversa.,0001
+,,Seleccione las respuestas correctas,CPU es la unidad central de procesamiento,CPU es la Controladora Principal del Universo,CPU es Control Principal Unitario,CPU es Centro Primario de Unidades,1000
+,,Seleccione las respuestas correctas,El sistema operativo es la interface gráfica de la computadora,El sistema operativo es la interface entre el teclado y la silla,El sistema operativo es un programa que interactua entre el hardware de la computadora y las aplicaciones desarrolladas por el usuario.,El sistema operativo es un conjunto de programas especializados para manejar la totalidad de la computadora.,0011
+,,Seleccione las respuestas correctas,LIFO stands for Last-In-Fast-Out,LIFO stands for Last-In-First-Out,LIFO stands for Later-In-First-Out,LIFO stands for Local-Input-Foreign-Output,0100
+,,Seleccione las respuestas correctas,La pila (stack) es un tipo abstracto de dato que sirve para simular un montón o cúmulo de piezas arregladas una sobre otra.,La pila es un dispositivo pequeño en el que la energía quimica se transforma en electricidad,La pila es un metodo que se utiliza para acomodar objetos en fila,La pila es la unidad minima de almacenamiento del disco duro,1000
+,,Seleccione las respuestas correctas,La cola (queue) es un tipo de dato abstracto que simula una cola de atención a clientes,La cola es una estructura para facilitar el procesamiento del CPU,La cola es un metodo que se utiliza para acomodar objetos en forma de pila,La cola es la unidad minima de almacenamiento del disco duro,1000
+,,Seleccione las respuestas correctas,FILO stands for First-In-Last-Out,FIFO stands for First-In-First-Out,LILO stands for Last-In-Last-Out,FIFO stands for Fork-In-Fork-Out,0100

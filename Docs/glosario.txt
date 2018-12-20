@@ -64,6 +64,7 @@ SOA
 REST
 WSDL
 XML
+JSON
 WS-Policy
 SSL
 WS-SecureConversation
