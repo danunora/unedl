@@ -1,0 +1,14 @@
+Seguimiento Proyectos
+
+Miguel
+1) Subir los cambios, Ivan, Octavio
+2) Disenar ventana de preguntas,
+3) Ventana de resultado, Miguel
+4) Ventana de Instrucciones, Sergio
+5) Tiempo del usuario, Sergio
+
+Kevin
+1) Subir los cambios, santos
+2) Ventana de resultados, Kevin
+3) Subir las preguntas, Luis
+4) Acentos en las preguntas, Luis
