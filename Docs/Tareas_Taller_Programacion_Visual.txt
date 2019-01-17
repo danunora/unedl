@@ -123,3 +123,9 @@ TAREA # 9 Proyecto Escolar
 ########################
 TAREA #10 (EXTRA) Ver la pelicula y hacer un ensayo: "That Sugar Film"
 https://www.pelispedia.tv/pelicula/that-sugar-film/
+
+########################
+TAREA #11 ADO.NET
+1) Descargar el siguiente software:
+	- Microsoft SQL Server Express, version 14 o posterior
+	- https://www.microsoft.com/en-US/download/details.aspx?id=42299

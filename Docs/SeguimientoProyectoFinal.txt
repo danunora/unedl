@@ -1,4 +1,6 @@
-Seguimiento Proyectos
+Seguimiento Proyecto Final
+
+####################### CW02
 
 Miguel
 1) Subir los cambios, Ivan, Octavio
@@ -8,7 +10,21 @@ Miguel
 5) Tiempo del usuario, Sergio
 
 Kevin
-1) Subir los cambios, santos
+1) Subir los cambios, Santos
 2) Ventana de resultados, Kevin
 3) Subir las preguntas, Luis
 4) Acentos en las preguntas, Luis
+
+####################### CW03
+Kevin
+1) Subir los cambios (Registro), Santos, ETA CW03.5.19
+2) Ventana de resultados, Kevin, ETA CW04.1.19
+3) Subir las preguntas, Luis, ETA CW03.3.19
+4) Acentos en las preguntas, Luis, ETA CW04.1.19
+
+Miguel
+1) Subir los cambios, Ivan (done), Octavio, ETA CW03.1.19
+2) Diseñar ventana de preguntas, Ivan, ETA CW03.5.19 
+3) Ventana de resultado, Miguel, ETA CW03.5.19
+4) Ventana de Instrucciones, Sergio, (Done), CW03.3.19 (pull request)
+5) Tiempo del usuario, Sergio, (Done), CW03.3.19 (pull request)
