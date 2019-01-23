@@ -28,3 +28,21 @@ Miguel
 3) Ventana de resultado, Miguel, ETA CW03.5.19
 4) Ventana de Instrucciones, Sergio, (Done), CW03.3.19 (pull request)
 5) Tiempo del usuario, Sergio, (Done), CW03.3.19 (pull request)
+
+######################## CW04.3.19
+Miguel, Sergio, Octavio
+- Validar el dominio en el email (.com, .mx)
+- Dejar en los radio button la respuesta en blanco o agregar una respuesta que diga "No contesto".
+- Contabilizar las preguntas no contestadas como incorrectas y ademas como no contestadas.
+- Ejemplo, de 20 preguntas, 19 contesta incorrectas y una la deja sin contestar, son 20 incorrectas y 1 sin contestar
+- Agregar los creditos y la version del software
+- Agregar opcion de imprimir el resultado o enviar por email, usar relay de correo
+- https://support.google.com/a/answer/176600?hl=en
+
+Kevin, Luis,
+- Dejar en los radio button la respuesta en blanco o agregar una respuesta que diga "No contesto". 
+- Contabilizar las preguntas no contestadas como incorrectas y ademas como no contestadas.
+- Ejemplo, de 20 preguntas, 19 contesta incorrectas y una la deja sin contestar, son 20 incorrectas y 1 sin contestar
+- Agregar los creditos y la version del software
+- Agregar opcion de imprimir el resultado o enviar por email, usar relay de correo
+- https://support.google.com/a/answer/176600?hl=en
