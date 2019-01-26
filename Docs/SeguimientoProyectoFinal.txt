@@ -36,7 +36,7 @@ Miguel, Sergio, Octavio
 - Contabilizar las preguntas no contestadas como incorrectas y ademas como no contestadas.
 - Ejemplo, de 20 preguntas, 19 contesta incorrectas y una la deja sin contestar, son 20 incorrectas y 1 sin contestar
 - Agregar los creditos y la version del software
-- Agregar opcion de imprimir el resultado o enviar por email, usar relay de correo
+- Agregar opcion de imprimir el resultado   o enviar por email, usar relay de correo
 - https://support.google.com/a/answer/176600?hl=en
 
 Kevin, Luis,

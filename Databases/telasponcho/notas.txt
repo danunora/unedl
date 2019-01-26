@@ -1,0 +1,27 @@
+Notas:
+
+// abrir la base de datos
+use AdressBook
+
+// seleccionar sus registros
+select * from BizContacts
+
+// insertar registros desde un CSV
+bulk insert BizContacts
+from 'c:\data\datos_bizcontacts.csv'
+with
+(
+    firstrow=2,
+	fieldterminator=';',
+	rowterminator='\n'
+)
+
+############# Clientes
+           Inicial | Buscar | Agregar  
+Buscar   : Enable  | Enable | Disable
+Editar   : Disable | Disable| Disable
+Agregar  : Enable  | Disable| Disable
+Borrar   : Disable | Disable| Disable
+Guardar  : Disable | Disable| Enable
+Cancelar : Disable | Enable | Enable
+
