@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace EventsAndDelegates
 {
+
     class Program
     {
         static void Main(string[] args)
@@ -16,7 +17,7 @@ namespace EventsAndDelegates
             var messageService = new MessageService();  // subscriber
 
             videoEncoder.VideoEncoded += mailService.OnVideoEncoded;
-            videoEncoder.VideoEncoded += messageService.OnVideoEncoded;
+            //videoEncoder.VideoEncoded += messageService.OnVideoEncoded;
 
             videoEncoder.Encode(video);
         }

@@ -11,9 +11,9 @@ namespace IntroducingTasks
     {
         static void Main(string[] args)
         {
-            CancelableTasksOpt1();
+            //CancelableTasksOpt1();
             //CancelableTasksOpt2();
-            //CancelableTasksOpt3();
+            CancelableTasksOpt3();
             //MonitoringCancelation();
             //CompositeCancelationToken();
 
