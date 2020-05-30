@@ -7,7 +7,7 @@
 *.userosscache
 *.sln.docstates
 *.exe
-*.jpg
+#*.jpg
 *.cache
 
 # User-specific files (MonoDevelop/Xamarin Studio)
