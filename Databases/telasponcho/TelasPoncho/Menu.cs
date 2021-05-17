@@ -17,25 +17,11 @@ namespace TelasPoncho
             InitializeComponent();
         }
 
-        private void clientesToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            Clientes clientes = new Clientes();
-            clientes.MdiParent = this;
-            clientes.Show();
-        }
-
         private void tapetesToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Tapetes tapetes = new Tapetes();
             tapetes.MdiParent = this;
             tapetes.Show();
-        }
-
-        private void BrowseClientesToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            BrowseClientes bc = new BrowseClientes();
-            bc.MdiParent = this;
-            bc.Show();
         }
 
         private void cascadeToolStripMenuItem_Click(object sender, EventArgs e)
@@ -56,6 +42,39 @@ namespace TelasPoncho
         private void Menu_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void acercaDeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            About about = new About();
+            about.MdiParent = this;
+            about.Show();
+        }
+
+        private void salirToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void gestiónToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            Clientes clientes = new Clientes();
+            clientes.MdiParent = this;
+            clientes.Show();
+        }
+
+        private void verToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            BrowseClientes bc = new BrowseClientes();
+            bc.MdiParent = this;
+            bc.Show();
+        }
+
+        private void gestiónToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Empleados empleados = new Empleados();
+            empleados.MdiParent = this;
+            empleados.Show();
         }
     }
 }

@@ -31,12 +31,22 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.operacionesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.clientesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.tapetesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.gestiónToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.verToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.BrowseClientesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.gestiónToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.verToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.tapetesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
+            this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ventanasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cascadeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tileHorizontallyToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tileVerticallyToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ayudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.verLaAyudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.acercaDeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -44,7 +54,8 @@
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.operacionesToolStripMenuItem,
-            this.ventanasToolStripMenuItem});
+            this.ventanasToolStripMenuItem,
+            this.ayudaToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(784, 24);
@@ -55,18 +66,65 @@
             // 
             this.operacionesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.clientesToolStripMenuItem,
+            this.BrowseClientesToolStripMenuItem,
+            this.toolStripMenuItem1,
             this.tapetesToolStripMenuItem,
-            this.BrowseClientesToolStripMenuItem});
+            this.toolStripSeparator1,
+            this.salirToolStripMenuItem});
             this.operacionesToolStripMenuItem.Name = "operacionesToolStripMenuItem";
             this.operacionesToolStripMenuItem.Size = new System.Drawing.Size(85, 20);
             this.operacionesToolStripMenuItem.Text = "Operaciones";
             // 
             // clientesToolStripMenuItem
             // 
+            this.clientesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.gestiónToolStripMenuItem1,
+            this.verToolStripMenuItem1});
             this.clientesToolStripMenuItem.Name = "clientesToolStripMenuItem";
             this.clientesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.clientesToolStripMenuItem.Text = "Clientes";
-            this.clientesToolStripMenuItem.Click += new System.EventHandler(this.clientesToolStripMenuItem_Click);
+            // 
+            // gestiónToolStripMenuItem1
+            // 
+            this.gestiónToolStripMenuItem1.Name = "gestiónToolStripMenuItem1";
+            this.gestiónToolStripMenuItem1.Size = new System.Drawing.Size(114, 22);
+            this.gestiónToolStripMenuItem1.Text = "Gestión";
+            this.gestiónToolStripMenuItem1.Click += new System.EventHandler(this.gestiónToolStripMenuItem1_Click);
+            // 
+            // verToolStripMenuItem1
+            // 
+            this.verToolStripMenuItem1.Name = "verToolStripMenuItem1";
+            this.verToolStripMenuItem1.Size = new System.Drawing.Size(114, 22);
+            this.verToolStripMenuItem1.Text = "Ver";
+            this.verToolStripMenuItem1.Click += new System.EventHandler(this.verToolStripMenuItem1_Click);
+            // 
+            // BrowseClientesToolStripMenuItem
+            // 
+            this.BrowseClientesToolStripMenuItem.Name = "BrowseClientesToolStripMenuItem";
+            this.BrowseClientesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.BrowseClientesToolStripMenuItem.Text = "Browse Clientes";
+            // 
+            // toolStripMenuItem1
+            // 
+            this.toolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.gestiónToolStripMenuItem,
+            this.verToolStripMenuItem});
+            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.toolStripMenuItem1.Text = "Empleados";
+            // 
+            // gestiónToolStripMenuItem
+            // 
+            this.gestiónToolStripMenuItem.Name = "gestiónToolStripMenuItem";
+            this.gestiónToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.gestiónToolStripMenuItem.Text = "Gestión";
+            this.gestiónToolStripMenuItem.Click += new System.EventHandler(this.gestiónToolStripMenuItem_Click);
+            // 
+            // verToolStripMenuItem
+            // 
+            this.verToolStripMenuItem.Name = "verToolStripMenuItem";
+            this.verToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.verToolStripMenuItem.Text = "Ver";
             // 
             // tapetesToolStripMenuItem
             // 
@@ -75,12 +133,17 @@
             this.tapetesToolStripMenuItem.Text = "Tapetes";
             this.tapetesToolStripMenuItem.Click += new System.EventHandler(this.tapetesToolStripMenuItem_Click);
             // 
-            // BrowseClientesToolStripMenuItem
+            // toolStripSeparator1
             // 
-            this.BrowseClientesToolStripMenuItem.Name = "BrowseClientesToolStripMenuItem";
-            this.BrowseClientesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.BrowseClientesToolStripMenuItem.Text = "Browse Clientes";
-            this.BrowseClientesToolStripMenuItem.Click += new System.EventHandler(this.BrowseClientesToolStripMenuItem_Click);
+            this.toolStripSeparator1.Name = "toolStripSeparator1";
+            this.toolStripSeparator1.Size = new System.Drawing.Size(177, 6);
+            // 
+            // salirToolStripMenuItem
+            // 
+            this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
+            this.salirToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.salirToolStripMenuItem.Text = "Salir";
+            this.salirToolStripMenuItem.Click += new System.EventHandler(this.salirToolStripMenuItem_Click);
             // 
             // ventanasToolStripMenuItem
             // 
@@ -113,6 +176,28 @@
             this.tileVerticallyToolStripMenuItem.Text = "Tile Vertical";
             this.tileVerticallyToolStripMenuItem.Click += new System.EventHandler(this.tileVerticallyToolStripMenuItem_Click);
             // 
+            // ayudaToolStripMenuItem
+            // 
+            this.ayudaToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.verLaAyudaToolStripMenuItem,
+            this.acercaDeToolStripMenuItem});
+            this.ayudaToolStripMenuItem.Name = "ayudaToolStripMenuItem";
+            this.ayudaToolStripMenuItem.Size = new System.Drawing.Size(53, 20);
+            this.ayudaToolStripMenuItem.Text = "Ayuda";
+            // 
+            // verLaAyudaToolStripMenuItem
+            // 
+            this.verLaAyudaToolStripMenuItem.Name = "verLaAyudaToolStripMenuItem";
+            this.verLaAyudaToolStripMenuItem.Size = new System.Drawing.Size(200, 22);
+            this.verLaAyudaToolStripMenuItem.Text = "Ver la ayuda";
+            // 
+            // acercaDeToolStripMenuItem
+            // 
+            this.acercaDeToolStripMenuItem.Name = "acercaDeToolStripMenuItem";
+            this.acercaDeToolStripMenuItem.Size = new System.Drawing.Size(200, 22);
+            this.acercaDeToolStripMenuItem.Text = "Acerca de Telas Poncho";
+            this.acercaDeToolStripMenuItem.Click += new System.EventHandler(this.acercaDeToolStripMenuItem_Click);
+            // 
             // Menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -142,5 +227,15 @@
         private System.Windows.Forms.ToolStripMenuItem tileHorizontallyToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem tileVerticallyToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem BrowseClientesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem ayudaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem verLaAyudaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem acercaDeToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem salirToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem gestiónToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem verToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem gestiónToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem verToolStripMenuItem;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
     }
 }

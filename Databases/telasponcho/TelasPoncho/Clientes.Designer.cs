@@ -44,7 +44,7 @@
             this.label8 = new System.Windows.Forms.Label();
             this.textNotes = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
-            this.SrcButton = new System.Windows.Forms.Button();
+            this.SearchButton = new System.Windows.Forms.Button();
             this.EditButton = new System.Windows.Forms.Button();
             this.DelButton = new System.Windows.Forms.Button();
             this.AddButton = new System.Windows.Forms.Button();
@@ -182,15 +182,15 @@
             this.label9.TabIndex = 14;
             this.label9.Text = "Notas:";
             // 
-            // SrcButton
+            // SearchButton
             // 
-            this.SrcButton.Location = new System.Drawing.Point(299, 41);
-            this.SrcButton.Name = "SrcButton";
-            this.SrcButton.Size = new System.Drawing.Size(75, 23);
-            this.SrcButton.TabIndex = 16;
-            this.SrcButton.Text = "Buscar";
-            this.SrcButton.UseVisualStyleBackColor = true;
-            this.SrcButton.Click += new System.EventHandler(this.SrcButton_Click);
+            this.SearchButton.Location = new System.Drawing.Point(299, 41);
+            this.SearchButton.Name = "SearchButton";
+            this.SearchButton.Size = new System.Drawing.Size(75, 23);
+            this.SearchButton.TabIndex = 16;
+            this.SearchButton.Text = "Buscar";
+            this.SearchButton.UseVisualStyleBackColor = true;
+            this.SearchButton.Click += new System.EventHandler(this.SrcButton_Click);
             // 
             // EditButton
             // 
@@ -267,7 +267,7 @@
             this.Controls.Add(this.DelButton);
             this.Controls.Add(this.AddButton);
             this.Controls.Add(this.EditButton);
-            this.Controls.Add(this.SrcButton);
+            this.Controls.Add(this.SearchButton);
             this.Controls.Add(this.textPhone);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.textNotes);
@@ -309,7 +309,7 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.TextBox textNotes;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Button SrcButton;
+        private System.Windows.Forms.Button SearchButton;
         private System.Windows.Forms.Button EditButton;
         private System.Windows.Forms.Button DelButton;
         private System.Windows.Forms.Button AddButton;

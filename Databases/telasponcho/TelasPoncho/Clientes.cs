@@ -50,7 +50,7 @@ namespace TelasPoncho
             switch (action)
             {
                 case 'L': // Initial, Load
-                    SrcButton.Visible = true;
+                    SearchButton.Visible = true;
                     EditButton.Visible = false;
                     AddButton.Visible = true;
                     DelButton.Visible = false;
@@ -58,7 +58,7 @@ namespace TelasPoncho
                     CancelButton.Visible = false;
                     break;
                 case 'B': // Search
-                    SrcButton.Visible = true;
+                    SearchButton.Visible = true;
                     EditButton.Visible = false;
                     AddButton.Visible = false;
                     DelButton.Visible = false;
@@ -66,7 +66,7 @@ namespace TelasPoncho
                     CancelButton.Visible = true;
                     break;
                 case 'A': // Add
-                    SrcButton.Visible = false;
+                    SearchButton.Visible = false;
                     EditButton.Visible = false;
                     AddButton.Visible = false;
                     DelButton.Visible = false;
@@ -74,7 +74,7 @@ namespace TelasPoncho
                     CancelButton.Visible = true;
                     break;
                 case 'C': // Cancel
-                    SrcButton.Visible = true;
+                    SearchButton.Visible = true;
                     EditButton.Visible = false;
                     AddButton.Visible = true;
                     DelButton.Visible = false;
